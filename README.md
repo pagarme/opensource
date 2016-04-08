@@ -10,6 +10,6 @@ Check [here](CONTRIBUTING.md) our guide for contributing in our open-source proj
 
 Check [here](CODE_OF_CONDUCT.md) our Code of Conduct to be used with our open-source projects
 
-## LICENSING
+## Licensing
 
 The largest number of our open-source projects are licensed under the MIT license. Other projects maybe will be released using a different license depending of the type of the project.
