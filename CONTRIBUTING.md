@@ -1,10 +1,10 @@
 # Contributing with our projects
 
-Some of our open-source projects is under very active development and is also being used for a lot of customers. We're still working out the kinks to make contributing to our projects as easy and transparent as possible, but we're not quite there yet. Hopefully this document makes the process for contributing clear and answers some questions that you may have.
+Some of our open-source projects are under very active development and also being used by many customers. We're still working out the kinks to make contributing to our projects as easy and transparent as possible, but we're not quite there yet. Hopefully this document will make the contribuing process clear and answers the questions you may have.
 
 ## [Code of Conduct](CODE_OF_CONDUCT.md)
 
-Pagar.me has adopted a Code of Conduct that we expect project participants to adhere to. Please read [the full text](CODE_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
+Pagar.me has adopted a Code of Conduct that we expect project participants to adhere to. Please read [the full text](CODE_CONDUCT.md) to understand what actions will and will not be tolerated.
 
 ## Our Development Process
 
@@ -12,17 +12,17 @@ Some of the core team will be working directly on GitHub. These changes will be 
 
 ### `master` is unsafe
 
-We will do our best to keep `master` in good shape, with tests passing at all times. But in order to move fast, we will make API changes in some of our projects that your application might not be compatible with. We will do our best to communicate these changes and always version appropriately so you can lock into a specific version if need be.
+We will do our best to keep `master` in good shape, with tests passing at all times. But in order to move fast, we will make API changes in some of our projects that your application might not be compatible with. We will do our best to communicate these changes and always version appropriately so you can lock into a specific version as needed.
 
 ### Tests
 
-Make sure that if you have changed any code all the tests in the project you are working are passing. All the tests need to be relevants and test real world cases.
+Make sure that all the tests are passing if you have changed any code in a project. All of them should be relevant and test real world cases.
 
 ### Pull Requests
 
 **Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
 
-The core team will be monitoring for pull requests. When we get one, we'll run some specific integration tests on it first. From here, we'll need to get another person to sign off on the changes and then merge the pull request. For API changes we may need to talk about this because of our customers, which could cause some delay. We'll do our best to provide updates and feedback throughout the process.
+The core team will be monitoring pull requests. When we get one, we'll run specific integration tests on it first. From here, we'll need to get another person to sign off on the changes and then merge the pull request. For API changes, further discussions might be necessary since huge impact can be caused on a lot of customers, which could cause some delay. We'll do our best to provide updates and feedback throughout the process.
 
 *Before* submitting a pull request, please make sure the following is done…
 
@@ -36,7 +36,7 @@ The core team will be monitoring for pull requests. When we get one, we'll run s
 
 ### Contributor License Agreement (CLA)
 
-In order to accept your pull request, we need you to submit a CLA. You only need to do this once, so if you've done this for another Pagar.me open source project, you're good to go. If you are submitting a pull request for the first time, just let us know that you have completed the CLA and we can cross-check with your GitHub username.
+In order to accept your pull request, we need you to submit a CLA. You only need to do this once, so if you've done this for another Pagar.me open source project, you're good to go. If you are submitting a pull request for the first time, just let us know you have completed the CLA and we can cross-check with your GitHub username.
 
 [Complete your CLA here.](https://code.pagar.me/cla)
 
@@ -44,7 +44,7 @@ In order to accept your pull request, we need you to submit a CLA. You only need
 
 ### Where to Find Known Issues
 
-We will be using GitHub Issues for our public bugs. We will keep a close eye on this and try to make it clear when we have an internal fix in progress. Before filing a new task, try to make sure your problem doesn't already exist.
+We will be using GitHub Issues for our public bugs. We will keep a close eye on this and try to make it clear when we have an internal fix in progress. Before filing a new task, try to make sure your problem was not reported by someone else in other issue.
 
 ### Reporting New Issues
 
@@ -52,7 +52,7 @@ The best way to get your bug fixed is to provide a reduced test case explaining 
 
 ### Security Bugs
 
-Pagar.me has a very strict security culture but if any of our projects have any vulnerability that can affect our customers we have an email for the safe disclosure of these security bugs. With that in mind, please do not file public issues; go through the process outlined below.
+Pagar.me has a very strict security culture. Therefore, if any of our projects have any vulnerability that can affect our customers, we have an email for safe disclosure. With that in mind, please do not file public issues; go through the process outlined below.
 
 Please send an email to [suporte@pagar.me](mailto:suporte@pagar.me) and describe the bug and the best way to reproduce them. We will reply as soon as possible and do our best to fix the bug as fast as possible too.
 
