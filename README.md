@@ -12,4 +12,4 @@ Check [here](CODE_OF_CONDUCT.md) our Code of Conduct to be used with our open-so
 
 ## Licensing
 
-The largest number of our open-source projects are licensed under the MIT license. Other projects maybe will be released using a different license depending of the type of the project.
+The vast majority of our open-source projects are licensed under the MIT license. Other projects may be released using a different license depending of the type of the project.
